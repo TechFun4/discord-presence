@@ -14,7 +14,7 @@ while True: #infinite loop
         large_image = "bitcoin", #name of your asset
         large_text = "Mining Bitcoins",
         details = "Mining...",
-        state = f"Status: {amount:.7f} Mined",
+        state = f"Status: {amount:.7f} BTC Mined",
         start = start,
         buttons = [{"label": "Coinbase", "url": "https://www.coinbase.com/"}, {"label": "Bitcoin Price", "url": "https://coinmarketcap.com/currencies/bitcoin/"}])
     time.sleep(15) #can be as low as 15, depends on how often you want to update
