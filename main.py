@@ -9,7 +9,7 @@ RPC.connect()
 
 amount = 0.0000000
 
-while True: #infinite loop
+while True:
     RPC.update(
         large_image = "bitcoin",
         large_text = "Mining Bitcoins",
